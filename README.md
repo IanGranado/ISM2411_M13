@@ -9,7 +9,8 @@ python app.py
 python3 app.py
 
 ## YOUR OUTPUT SHOULD LOOK LIKE THIS
-# Example: 10 Hours
+#### Example: 10 Hours
 
 How many hours were you working for today? 5
 Based off your input, if you work the same hours daily (for 7 days), you are on track to work 70.00 hours this week.
+
