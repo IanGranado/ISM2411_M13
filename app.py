@@ -2,7 +2,11 @@ print("Hello World, Welcome to my Python program!")
 
 todays_hours = input("How many hours were you working for today? ")
 
-todays_hours = float(todays_hours)
+try:
+    todays_hours = float(todays_hours)
+except ValueError:
+    print("Uh-Oh, only numeric values are accepted! Try again using numbers only.")
+    exit()
 
 weekly_total = todays_hours * 7
 
